@@ -496,7 +496,7 @@ A: All updates for the current major version are included with your permanent li
 ### How to Purchase
 - **Discord:** `Nerotek01`
 - **Bale (Iranian users):** `Nerotek`
-- **Price:** **€25.00** — one-time payment, permanent license.
+- **Price:** **€30.00** — one-time payment, permanent license.
 
 ### License
 **Permanent, all-servers license.** Your purchase covers every server you own — from a single lobby to a 50-server BungeeCord network. There are no recurring fees, no per-server add-ons, and no hidden costs.
