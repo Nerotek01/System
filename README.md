@@ -7,13 +7,13 @@
 
 <h1 align="center">System</h1>
 
-<p align="center"><strong>The last server management plugin you will ever need.</strong></p>
+<p align="center"><strong>Developed based on top-tier standards, inspired by the Hypixel System server.</strong></p>
 
 # System
 
 **Production-grade server management for Minecraft 1.8.8 (Spigot / Paper).**
-Engineered for networks that demand zero-downtime operations, modular architecture, and uncompromising stability.
-A single JAR replaces dozens of lobby plugins — daily restart scheduling, backup management, world protection, a complete economy with MongoDB + Redis, 20 modular addons, 33 decorative animations, a built-in Vault service layer, and full PlaceholderAPI integration. Every system, every configuration value, and every optimisation exists because real server owners demanded it.
+This System plugin is developed based on top-tier standards and takes inspiration from the Hypixel System server and its features.
+Engineered for networks that demand zero-downtime operations, modular architecture, and uncompromising stability. A single JAR replaces dozens of lobby plugins — daily restart scheduling, backup management, world protection, a complete economy with MongoDB + Redis, 20 modular addons, 33 decorative animations, a built-in Vault service layer, and full PlaceholderAPI integration. Every system, every configuration value, and every optimisation exists because real server owners demanded it.
 
 ---
 
