@@ -30,8 +30,9 @@
 
 ---
 
-<p align="center"><strong>Developed based on top-tier standards, inspired by the Hypixel System server.</strong></p>
+<h1 align="center">System</h1>
 
+<p align="center"><strong>Developed based on top-tier standards, inspired by the Hypixel System server.</stron
 # System
 
 **Production-grade server management for Minecraft 1.8.8 (Spigot / Paper).**
