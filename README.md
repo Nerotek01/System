@@ -1,44 +1,19 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-DEVELOPMENT%20SUSPENDED-8B0000?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/SUPPORT-DISCONTINUED-8B0000?style=for-the-badge" alt="Support">
-  <img src="https://img.shields.io/badge/UPDATES-PAUSED-8B0000?style=for-the-badge" alt="Updates">
-  <img src="https://img.shields.io/badge/DISTRIBUTION-PUBLIC%20JAR-555555?style=for-the-badge" alt="Distribution">
+  <img src="https://img.shields.io/badge/version-3.92-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/license-permanent%20all--servers-success?style=for-the-badge" alt="License">
+  <a href="https://discord.gg/YOUR_REAL_INVITE_CODE"><img src="https://img.shields.io/badge/support-24%2F7%20discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://mc.hypeland.org"><img src="https://img.shields.io/badge/demo-mc.hypeland.org-orange?style=for-the-badge" alt="Demo Server"></a>
 </p>
-
----
-
-<h2 align="center"><code>PROJECT NOTICE — DEVELOPMENT SUSPENDED</code></h2>
-
-<p align="center"><em>Effective immediately, this project has been placed on indefinite hold.</em></p>
-
----
-
-**Reason for suspension.** Active development has been halted due to limited funding, insufficient development time, and the absence of a complete development team.
-
-**Release version.** The build currently available under the **Releases** section is an **in-development (pre-release) version**, not a finalized production build. As such, a number of **minor, low-visibility features may not function as intended**. The core systems are stable, but small edge cases and secondary details were still being refined at the time development was paused.
-
-**Current terms of the project.**
-
-- Support is **no longer provided**.
-- No further updates will be released.
-- The compiled **JAR** of the latest build remains publicly available under the **Releases** section.
-- The project may be downloaded and used in its current state, as-is.
-
-**Regarding the source code.** Open-sourcing the source is **not possible** at this time due to licensing restrictions.
-
-**Resumption of development.** Should a **sponsor or development team** come forward, development will resume immediately. For sponsorship or support inquiries, please contact the developer directly.
-
----
 
 <h1 align="center">System</h1>
 
-<p align="center"><strong>Developed based on top-tier standards, inspired by the Hypixel System server.</strong></p>
+<p align="center"><strong>The last server management plugin you will ever need.</strong></p>
 
 # System
 
 **Production-grade server management for Minecraft 1.8.8 (Spigot / Paper).**
-This System plugin is developed based on top-tier standards and takes inspiration from the Hypixel System server and its features.
-Engineered for networks that demand zero-downtime operations, modular architecture, and uncompromising stability. A single JAR replaces dozens of lobby plugins — daily restart scheduling, backup management, world protection, a complete economy with MongoDB + Redis, 20 modular addons, 33 decorative animations, a built-in Vault service layer, and full PlaceholderAPI integration. Every system, every configuration value, and every optimisation exists because real server owners demanded it.
+Engineered for networks that demand zero-downtime operations, modular architecture, and uncompromising stability.
+A single JAR replaces dozens of lobby plugins — daily restart scheduling, backup management, world protection, a complete economy with MongoDB + Redis, 20 modular addons, 33 decorative animations, a built-in Vault service layer, and full PlaceholderAPI integration. Every system, every configuration value, and every optimisation exists because real server owners demanded it.
 
 ---
 
@@ -67,7 +42,9 @@ Engineered for networks that demand zero-downtime operations, modular architectu
 
 A live, fully functional demo network is available so you can evaluate System before making any commitment.
 
+```
 IP: mc.hypeland.org
+```
 
 The test server runs the latest stable build with every addon enabled. You can experience the restart scheduler, economy, animations, world protection, chat emojis, and every other system exactly as your players would. **No registration, no whitelist — connect and play immediately.**
 
@@ -92,11 +69,11 @@ Performance is treated as a first-class feature. All database operations (MongoD
 ### Modular Architecture for Any Topology
 Every addon is a self-contained module with its own configuration file under `plugins/System/addons/<addon-name>/config.yml`. Disable what you don't need, enable what you do. A single boolean per addon in the main `config.yml` controls whether it loads. This makes System equally suited for a single lobby server and a 50-server BungeeCord network where each server enables only the addons it needs.
 
-### Free, Public Release
-The project is no longer sold. The latest compiled build is publicly available, free of charge, under the **Releases** section — covering every server you own, with no fees, no per-server charges, and no hidden costs.
+### Zero Recurring Costs, True Unlimited License
+One payment grants you a permanent license that covers **all servers you own** — whether you run a single lobby or a 50-server BungeeCord network. There are no monthly fees, no per-server add-ons, and no hidden costs. You receive all future updates for the current major version free of charge.
 
 ### Direct Access to the Developer
-When your server has an issue at peak time, you do not file a ticket and wait. You speak directly to the person who wrote the code. However, note that active support is **no longer provided**, as development is currently suspended.
+When your server has an issue at peak time, you do not file a ticket and wait. You speak directly to the person who wrote the code. Support is available **24/7** through Discord or Bale, and every report is treated with the urgency that a live production network demands.
 
 ---
 
@@ -119,9 +96,9 @@ When your server has an issue at peak time, you do not file a ticket and wait. Y
 | **Interactive books** | Config-driven with placeholders, join behaviors, aliases | Not available | Rare |
 | **ItemJoin** | Config-driven join items with protection flags | Separate plugin | Rare |
 | **PlaceholderAPI** | Full `vault` expansion + built-in placeholders | Varies | Varies |
-| **License model** | Free, public release | Free (but needs many plugins) | Often per-server or recurring |
+| **License model** | Permanent, all servers | Free (but needs many plugins) | Often per-server or recurring |
 
-**Key takeaway:** System is the only option that replaces an entire lobby plugin stack — permissions, chat, economy, protection, cosmetics, and server management — in a single JAR, available now as a free public release.
+**Key takeaway:** System is the only option that replaces an entire lobby plugin stack — permissions, chat, economy, protection, cosmetics, and server management — in a single JAR with a single purchase that covers every server you run.
 
 ---
 
@@ -380,29 +357,35 @@ System registers an automatic `vault` PlaceholderAPI expansion and supports buil
 
 ### Vault Economy Placeholders
 
-%vault_eco_balance%           — Grouped balance, trailing zeros stripped
-%vault_eco_balance_formatted% — Same uniform grouped format
-%vault_eco_balance_commas%    — Same uniform grouped format
+```
+%vault_eco_balance%           # Grouped balance, trailing zeros stripped
+%vault_eco_balance_formatted% # Same uniform grouped format
+%vault_eco_balance_commas%    # Same uniform grouped format
+```
 
 All variants use Locale.US comma grouping, at most two fraction digits, trailing zeros stripped.
 
 ### Vault Permission and Chat Placeholders
 
-%vault_rank%            — Primary group
-%vault_prefix%          — Player prefix
-%vault_suffix%          — Player suffix
-%vault_rankprefix%      — Prefix of primary group
-%vault_ranksuffix%      — Suffix of primary group
-%vault_chatprefix%      — Group prefix via chat provider
-%vault_chatsuffix%      — Group suffix via chat provider
-%vault_groups%          — All parent groups
-%vault_rankprefix_N%    — Prefix of Nth parent group (0-based)
+```
+%vault_rank%            # Primary group
+%vault_prefix%          # Player prefix
+%vault_suffix%          # Player suffix
+%vault_rankprefix%      # Prefix of primary group
+%vault_ranksuffix%      # Suffix of primary group
+%vault_chatprefix%      # Group prefix via chat provider
+%vault_chatsuffix%      # Group suffix via chat provider
+%vault_groups%          # All parent groups
+%vault_rankprefix_N%    # Prefix of Nth parent group (0-based)
+```
 
 ### Join Message Placeholders
 
-%player%       — Exact player name
-%displayname%  — Display name
-%online%       — Players currently online
+```
+%player%       # Exact player name
+%displayname%  # Display name
+%online%       # Players currently online
+```
 
 If PlaceholderAPI is not installed, built-in placeholders are used as fallback and the plugin still works.
 
@@ -465,10 +448,10 @@ Every value is editable in the `plugins/System/` directory. Nothing is hard-code
 
 ## Frequently Asked Questions
 
-### General Questions
+### Pre-purchase Questions
 
 **Q: Is this a single plugin or do I need multiple downloads?**
-A: System ships as a single shaded JAR containing 20 modular addons, a built-in Vault service layer, and all database drivers. Everything needed for lobby management is included.
+A: System ships as a single shaded JAR containing 20 modular addons, a built-in Vault service layer, and all database drivers. You also receive everything needed for lobby management in one purchase.
 
 **Q: Does it support versions newer than 1.8.8?**
 A: Currently, System is exclusively engineered for 1.8.8. If future versions are supported, they will be provided as separate, equally optimised branches.
@@ -477,9 +460,9 @@ A: Currently, System is exclusively engineered for 1.8.8. If future versions are
 A: No. System includes a built-in Vault addon that registers Permission, Chat, and Economy services natively. No external Vault, Essentials, or economy plugin is required.
 
 **Q: How does the license work?**
-A: No license is sold. The project has been suspended and the latest build is available free of charge under the **Releases** section.
+A: One payment grants you a permanent license that covers every server you own. There are no recurring fees, no per-server charges, and no hidden costs.
 
-**Q: Can I test the plugin?**
+**Q: Can I test the plugin before buying?**
 A: Yes. Connect to `mc.hypeland.org` to experience the full plugin on a live server with no registration.
 
 ### Technical Questions
@@ -499,33 +482,36 @@ A: Yes. System declares `softdepend: [Vault]`, loads after it, and lets service 
 ### Support
 
 **Q: How do I get help if something breaks?**
-A: Active support is **no longer provided**, as development is suspended. You may still contact the developer, but no official assistance is guaranteed.
+A: You have 24/7 direct access to the developer via Discord (`Nerotek01`) or Bale (`Nerotek`). There are no tickets, no forums, and no canned replies.
 
 **Q: Are updates free?**
-A: No further updates are planned. The current build is the final public release.
+A: All updates for the current major version are included with your permanent license.
 
 ---
 
 ## Support & Purchasing
 
-**This project is no longer sold.** As stated in the Project Notice above, development has been suspended indefinitely and commercial distribution has been discontinued.
+**System** is a premium plugin sold exclusively by the developer.
 
-### How to Get the Plugin
-The latest compiled **JAR** is publicly available, free of charge, under the **Releases** section of this repository. Download it, drop it into your `plugins/` folder, and use it as-is.
-
-### No Purchase, No License Fee
-There is no price, no license key, no loader, and no payment of any kind. The project is released publicly for anyone to use.
-
-### Sponsorship & Resumption
-If you are interested in **sponsoring this project** or joining a **development team** to resume it, please contact the developer directly. Sponsorship is the only path toward continued development.
-
-### Contacts
+### How to Purchase
 - **Discord:** `Nerotek01`
 - **Bale (Iranian users):** `Nerotek`
-- **Demo server:** `mc.hypeland.org`
+- **Price:** **€25.00** — one-time payment, permanent license.
 
-### Support
-Active support is **no longer provided**, as development is suspended. The community may still discuss the plugin, but no official assistance is guaranteed.
+### License
+**Permanent, all-servers license.** Your purchase covers every server you own — from a single lobby to a 50-server BungeeCord network. There are no recurring fees, no per-server add-ons, and no hidden costs.
+
+### What You Receive
+- The complete System plugin JAR (shaded with MongoDB, Redis, and H2 drivers).
+- All 20 modular addons, fully integrated and ready to use.
+- Built-in Vault service layer (Permission, Chat, Economy).
+- 33 decorative animation types with crash recovery.
+- Complete economy with MongoDB + Redis.
+- Free updates for the current major version.
+- **24/7 priority support** via Discord or Bale.
+
+### Support Promise
+When an issue arises on your live network, you do not file tickets and hope for a reply. You speak directly with the developer — the person who wrote every line of code. Your uptime is our reputation.
 
 ---
 
